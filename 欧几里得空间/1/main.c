@@ -18,7 +18,6 @@ int main() {
     bres = sqrt(bres);
     result_raw = c / (ares * bres);
     
-    printf("%lf\n", result_raw);
     printf("%lf\n", acos(result_raw));
     
     return 0;
