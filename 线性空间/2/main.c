@@ -56,8 +56,8 @@ Matrix compute(Matrix f) {
     }
     
     result[0][0] = fraction_d(f[0][4], f[0][0]);
-    result[1][0] = fraction_d(f[1][4], f[1][2]);
-    result[2][0] = fraction_d(f[2][4], f[2][1]);
+    result[2][0] = fraction_d(f[1][4], f[1][2]);
+    result[1][0] = fraction_d(f[2][4], f[2][1]);
     result[3][0] = fraction_d(f[3][4], f[3][3]);
     
     return result;

@@ -56,8 +56,8 @@ int main() {
     
     result[0][0] = fraction_d(f[0][4], f[0][0]);
     result[1][0] = fraction_d(f[1][4], f[1][1]);
-    result[2][0] = fraction_d(f[2][4], f[2][3]);
-    result[3][0] = fraction_d(f[3][4], f[3][2]);
+    result[3][0] = fraction_d(f[2][4], f[2][3]);
+    result[2][0] = fraction_d(f[3][4], f[3][2]);
     
     for (i = 0; i < 4; ++i) {
         Fraction_output(result[i][0]);
